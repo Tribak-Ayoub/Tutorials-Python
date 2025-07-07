@@ -1,0 +1,2 @@
+This is a backend log.
+Another log entry.
