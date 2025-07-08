@@ -67,7 +67,7 @@ class LeadController extends Controller
 
 ---
 
-## 4. Laravel Route — `routes/web.php`
+## 4. Laravel Route — `routes/api.php`
 
 ```php
 use App\Http\Controllers\LeadController;
@@ -82,7 +82,7 @@ Route::post('/lead/score', [LeadController::class, 'score']);
 Use Postman, Thunder Client, or an HTML form to send a POST request to:
 
 ```
-http://localhost:8000/lead/score
+http://localhost:8001/api/lead/score
 ```
 
 With JSON body like:
